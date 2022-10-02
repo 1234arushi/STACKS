@@ -17,7 +17,7 @@ class Solution
         stack<int> st;
         for(int i=0;i<S.length();i++)
         {
-            if(S[i]>47 && S[i]<=57)
+            if(S[i]>='0'&& S[i]<='9')
             {
                 st.push(S[i]-'0');
                 // converts the character at position i to
